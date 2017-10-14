@@ -820,7 +820,7 @@ public class SpellChecker {
                         try {
                             factory.loadWordList( new URL( baseURL, "dictionary_" + locale + extension ) );
                         } catch( Exception ex ) {
-                        	SpellChecker.getMessageHandler().handleError( ex.toString(), "Error", ex );
+                        	//SpellChecker.getMessageHandler().handleError( ex.toString(), "Error", ex );
                         }
                          try {
                             CustomDictionaryProvider provider = userDictionaryProvider;

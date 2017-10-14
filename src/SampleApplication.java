@@ -40,7 +40,7 @@ public class SampleApplication extends JFrame{
         JEditorPane text = new JTextPane();
         text.setText( "This is a simppler textt with spellingg errors." );
         add( text );
-        setSize(200, 160);
+        setSize(500, 200);
         setDefaultCloseOperation( EXIT_ON_CLOSE );
         setLocationRelativeTo( null );
 
